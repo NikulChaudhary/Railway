@@ -1,0 +1,32 @@
+<!-- Login and signup -->
+			<div class="login">
+			<form class="form-signin " method="post" action="login.php">
+		
+			<table class="table" style="margin-bottom:4px;">
+			
+			<tr>
+			<td style="border-top:0px;"><label> Username</label></td>
+			<td style="border-top:0px;"> <input type="text" name="user" class="input-block-level" placeholder="Username"></td>
+			</tr>
+			<tr >
+			<td style="border-top:0px;"> <label>Password</label></td>
+			<td style="border-top:0px;"><input type="password" name="psd" class="input-block-level" placeholder="password"></td>
+			</tr>
+			<tr>
+			<td colspan=2 style="border-top:0px; visibility:hidden;" id="wrong"  class="label label-important">Username and Password Wrong !!!</td>
+			</tr>
+			<tr>
+			<td style="border-top:0px;"></td>
+			<td style="border-top:0px;"> <input class="btn btn-info" type="submit" value="Login"></td>
+			</tr>
+			<tr>
+			<td colspan="2" style="border-top:0px;"> <p>  You don't have register?</p></td>
+			</tr>
+			<tr>
+			<td style="border-top:0px;"></td>
+			<td style="border-top:0px;"> <a class="btn btn-info" href="signup.html">Signup</a></td>
+			</tr>
+			
+			</table>
+			</form>
+			</div>
